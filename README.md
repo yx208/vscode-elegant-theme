@@ -14,3 +14,15 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Reference
+
+[VSCode official Theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
+
+[Semantic Highlighting Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
+
+[Semantic Token Scope Map](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map)
+
+[Theme Syntax](https://code.visualstudio.com/api/extension-guides/color-theme)
+
+[VSCode Theme Color Docs](https://code.visualstudio.com/api/references/theme-color)

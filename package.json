@@ -14,7 +14,7 @@
       {
         "label": "Elegant Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/elegant-theme-dark.json"
+        "path": "./themes/elegant-dark-color-theme.json"
       }
     ]
   }

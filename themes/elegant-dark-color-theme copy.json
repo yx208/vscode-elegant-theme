@@ -1,10 +1,17 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"name": "Elegant Theme",
 	"colors": {
-		"editor.background": "#1A1C1F",
+		"editor.background": "#1a1c1f",
 		"editor.foreground": "#A9B7C6",
+		"editorCursor.foreground": "#2075EB",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		
+		"terminal.background": "#1F2226",
+		"sideBar.background": "#1F2226",
+		"tab.inactiveBackground": "#1a1c1f",
+		"tab.activeBorderTop": "#2075EB",
+		"tab.border": "#41484D"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#009963"
+				"foreground": "#008053"
 			}
 		},
 		{
@@ -25,7 +32,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#A9B7C6"
 			}
 		},
 		{
@@ -55,13 +62,21 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E0992D"
+			}
+		},
+		{
+			"name": "Keyword Control (eg: TypeScript export)",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#E0992D"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -75,7 +90,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#A9B7C6"
 			}
 		},
 		{
@@ -99,7 +114,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#4997FA"
 			}
 		},
 		{
@@ -108,7 +123,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#E66060"
 			}
 		},
 		{
@@ -122,25 +137,50 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Function Argument",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#13ABC0"
+			}
+		},
+		{
+			"name": "Other keyword",
+			"scope": [
+				"keyword.other",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#E0992D"
+			}
+		},
+		{
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
+				"constant.escape"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#EB8800"
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Stirng",
 			"scope": [
-				"string",
+				"string"
+			],
+			"settings": {
+				"foreground": "#009963"
+			}
+		},
+		{
+			"name": "Symbols, Inherited Class, Markup Heading",
+			"scope": [
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -149,7 +189,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#00B899"
 			}
 		},
 		{
@@ -165,16 +205,17 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#00B899"
 			}
 		},
 		{
-			"name": "Entity Types",
+			"name": "Entity Types (eg: TypeScript string/number, deference between stirng and String)",
 			"scope": [
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"fontStyle": "italic",
+				"foreground": "#00B899"
 			}
 		},
 		{
@@ -209,7 +250,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#E0992D"
 			}
 		},
 		{
@@ -624,5 +665,9 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"class": "#00B899"
+	}
 }
