@@ -8,10 +8,15 @@
 		"activityBarBadge.background": "#007acc",
 		
 		"terminal.background": "#1F2226",
+
 		"sideBar.background": "#1F2226",
-		"tab.inactiveBackground": "#1a1c1f",
+		"sideBar.border": "#373B42",
+
+		"tab.inactiveBackground": "#1F2226",
 		"tab.activeBorderTop": "#2075EB",
-		"tab.border": "#41484D"
+		"tab.border": "#41484D",
+
+		"statusBar.background": "#1F2226"
 	},
 	"tokenColors": [
 		{
