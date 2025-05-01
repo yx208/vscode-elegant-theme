@@ -1,0 +1,21 @@
+{
+  "name": "vscode-elegant-theme",
+  "displayName": "vscode-elegant-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elegant Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elegant-theme-dark.json"
+      }
+    ]
+  }
+}
