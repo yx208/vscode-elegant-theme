@@ -4,15 +4,19 @@
 	"colors": {
 		"editor.background": "#1a1c1f",
 		"editor.foreground": "#A9B7C6",
-		"activityBarBadge.background": "#ff0000",
-
-		"editorCursor.foreground": "#2075EB",		
-		"terminal.background": "#1F2226",
+		"editorCursor.foreground": "#2075EB",
+		"activityBarBadge.background": "#007acc",
 		
-		"tab.activeBackground": "#1a1c1f",
-		"tab.inactiveBackground": "#00ff00",
+		"terminal.background": "#1F2226",
 
-		"badge.background": "#2075EB"
+		"sideBar.background": "#1F2226",
+		"sideBar.border": "#373B42",
+
+		"tab.inactiveBackground": "#1F2226",
+		"tab.activeBorderTop": "#2075EB",
+		"tab.border": "#41484D",
+
+		"statusBar.background": "#1F2226"
 	},
 	"tokenColors": [
 		{

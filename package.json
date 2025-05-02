@@ -2,6 +2,7 @@
   "name": "vscode-elegant-theme",
   "displayName": "vscode-elegant-theme",
   "description": "",
+  "license": "MIT",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
@@ -9,6 +10,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yx208/vscode-elegant-theme"
+  },
   "contributes": {
     "themes": [
       {
@@ -16,6 +21,9 @@
         "uiTheme": "vs-dark",
         "path": "./themes/elegant-dark-color-theme.json"
       }
+    ],
+    "semanticTokenScopes": [
+      
     ]
   }
 }

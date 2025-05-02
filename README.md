@@ -15,6 +15,11 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 **Enjoy!**
 
+## Color Variants
+
+- EditorSide: #1E2024
+- Edtiro: #1a1c1f
+
 ## Reference
 
 [VSCode official Theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
@@ -25,4 +30,6 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 [Theme Syntax](https://code.visualstudio.com/api/extension-guides/color-theme)
 
-[VSCode Theme Color Docs](https://code.visualstudio.com/api/references/theme-color)
+[VSCode Color Guide](https://code.visualstudio.com/api/references/theme-color)
+
+[Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
