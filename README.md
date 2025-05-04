@@ -1,4 +1,4 @@
-# vscode-elegant-theme README
+# VSCode Elegant Theme
 
 ## Working with Markdown
 
