@@ -10,16 +10,16 @@
 		"editorCursor.foreground": "#2075EB",
 		"activityBarBadge.background": "#007acc",
 		
-		"terminal.background": "#1E2024",
+		"terminal.background": "#1A1C1F",
 
 		"sideBar.background": "#1E2024",
-		"sideBar.border": "#373B42",
 
 		"tab.inactiveBackground": "#1E2024",
 		"tab.activeBorderTop": "#2075EB",
 		"tab.border": "#373B42",
 
 		"statusBar.background": "#1E2024",
+		"statusBar.border": "#373B42",
 
 		"activityBar.background": "#1E2024",
 		"activityBar.border": "#373B42",
@@ -30,17 +30,46 @@
 		"titleBar.border": "#373B42",
 
 		"sideBarSectionHeader.background": "#1E2024",
+
+		"welcomePage.background": "#1A1C1F"
 	},
 	"tokenColors": [
 		{
-			"name": "Class propertices/",
+			"name": "Text",
 			"scope": [
-				"meta.field.declaration.ts",
-				"keyword.operator.type.annotation.ts",
-				"meta.objectliteral.ts"
+				"meta.field.declaration",
+				"keyword.operator.type.annotation",
+				"keyword.operator.assignment",
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "Constant Property",
+			"scope": [
+				"variable.other.constant.property"
+			],
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "TS:Text",
+			"scope": [
+				"meta.objectliteral.ts",
+				"variable.other.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "JSON:Field name",
+			"scope": ["support.type.property-name.json"],
+			"settings": {
+				"foreground": "#9DA4AF"
 			}
 		},
 		{
@@ -84,19 +113,8 @@
 				"foreground": "#00B899"
 			}
 		},
-		// {
-		// 	"name": "Type/ts",
-		// 	"scope": [
-		// 		"support.type",
-		// 		"entity.name.type.interface.ts"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#00B899",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
-			"name": "html/TSX/JSX/CustomComponent Tag Name",
+			"name": "html/TSX/JSX/CustomComponent:Tag Name",
 			"scope": [
 				"entity.name.tag.tsx",
 				"entity.name.tag.jsx",
@@ -111,13 +129,12 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
+				"name.function",
 				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#4997FA"
@@ -136,14 +153,31 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword",
+				"storage.type.class",
+				"variable.language.this",
+				"entity.name.type.parameter"
+			],
+			"settings": {
+				"foreground": "#E0992D"
+			}
+		},
+		{
+			"name": "Rust:Self",
+			"scope": ["variable.language.self.rust"],
+			"settings": {
+				"foreground": "#E0992D"
+			}
+		},
+		{
+			"name": "TS:Keyword",
+			"scope": [
 				"storage.type.interface.ts",
 				"storage.modifier.ts",
-				"storage.type.class",
 				"storage.type.ts",
 				"storage.modifier.async.ts",
 				"meta.type.annotation.ts",
-				"variable.language.this",
-				"variable.language.self.rust"
+				// any
+				"support.type.primitive.ts"
 			],
 			"settings": {
 				"foreground": "#E0992D"
@@ -163,10 +197,8 @@
 			}
 		},
 		{
-			"name": "other variable",
-			"scope": [
-				"meta.var-single-variable.expr.ts"
-			],
+			"name": "Other variable",
+			"scope": [],
 			"settings": {
 			  "foreground": "#9581D6"
 			}
@@ -174,7 +206,6 @@
 		{
 			"name": "RW gloabl var",
 			"scope": [
-				"variable.other.object.ts",
 				"variable.other.readwrite.alias.ts"
 			],
 			"settings": {

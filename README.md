@@ -15,14 +15,45 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 **Enjoy!**
 
+## "tokenColors" content description rules
+
+I will try to maintain the following coherent rules.
+
+1. For the same color, there might be different expressions and rules, they will be continuous in one block.
+2. For different rules, the general ones always come first, followed by those specific to particular languages.
+3. Others are still in planning...
+
 ## Color Variants
 
-- EditorSide: #1E2024
-- Edtiro: #1a1c1f
+- primary
+    - #4997FA
+    - #49B3F5
+    - #007acc 
+    - #2075EB
+- Gray
+    - #A9B7C6
+    - #9DA4AF
+    - #5B697C
+    - #373B42
+    - #1E2024
+    - #1a1c1f
+- Green
+    - #009963
+    - #008053
+- Cyan
+    - #00B899
+- Yellow
+    - #E0992D
+    - #EB8800
+- Other
+    - #E66060
+    - #9581D6
 
 ## Reference
 
-[VSCode official Theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
+[Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+
+[VSCode Official Theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
 
 [Semantic Highlighting Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
 
