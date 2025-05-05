@@ -5,10 +5,12 @@
 		"editor.background": "#1A1C1F",
 		"editor.foreground": "#A9B7C6",
 
+		"editorLineNumber.foreground": "#41484D",
+		"editorLineNumber.activeForeground": "#A9B7C6",
+
 		"editorGroupHeader.tabsBackground": "#1E2024",
 
 		"editorCursor.foreground": "#2075EB",
-		"activityBarBadge.background": "#007acc",
 		
 		"terminal.background": "#1A1C1F",
 
@@ -31,7 +33,12 @@
 
 		"sideBarSectionHeader.background": "#1E2024",
 
-		"welcomePage.background": "#1A1C1F"
+		"welcomePage.background": "#1A1C1F",
+
+		"menu.background": "#1E2024",
+		"menu.border": "#373B42",
+		"menu.separatorBackground": "#373B42",
+		"menu.selectionBackground": "#0F62CC"
 	},
 	"tokenColors": [
 		{
@@ -172,12 +179,15 @@
 			"name": "TS:Keyword",
 			"scope": [
 				"storage.type.interface.ts",
+				"storage.type.function.tsx",
 				"storage.modifier.ts",
 				"storage.type.ts",
+				"storage.type.tsx",
 				"storage.modifier.async.ts",
 				"meta.type.annotation.ts",
-				// any
-				"support.type.primitive.ts"
+				"meta.interface.tsx",
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx"
 			],
 			"settings": {
 				"foreground": "#E0992D"

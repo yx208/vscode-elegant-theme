@@ -28,12 +28,13 @@ I will try to maintain the following coherent rules.
 - primary
     - #4997FA
     - #49B3F5
-    - #007acc 
     - #2075EB
+    - #0F62CC
 - Gray
     - #A9B7C6
     - #9DA4AF
     - #5B697C
+    - #41484D
     - #373B42
     - #1E2024
     - #1a1c1f
