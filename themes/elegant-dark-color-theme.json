@@ -179,18 +179,27 @@
 			"name": "TS:Keyword",
 			"scope": [
 				"storage.type.interface.ts",
+				"storage.type.interface.tsx",
 				"storage.type.function.tsx",
 				"storage.modifier.ts",
 				"storage.type.ts",
 				"storage.type.tsx",
 				"storage.modifier.async.ts",
 				"meta.type.annotation.ts",
-				"meta.interface.tsx",
 				"support.type.primitive.ts",
-				"support.type.primitive.tsx"
+				"support.type.primitive.tsx",
+				"keyword.control.import.tsx",
+				"keyword.control.import.ts",
+				"keyword.control.export.tsx",
+				"keyword.control.export.ts",
+				"keyword.control.default.tsx",
+				"keyword.control.default.ts",
+				"keyword.control.flow.tsx",
+				"keyword.control.flow.ts"
 			],
 			"settings": {
-				"foreground": "#E0992D"
+				"foreground": "#E0992D",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -215,9 +224,7 @@
 		},
 		{
 			"name": "RW gloabl var",
-			"scope": [
-				"variable.other.readwrite.alias.ts"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#E66060"
 			}
