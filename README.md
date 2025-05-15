@@ -23,6 +23,13 @@ I will try to maintain the following coherent rules.
 2. For different rules, the general ones always come first, followed by those specific to particular languages.
 3. Others are still in planning...
 
+## Build
+
+```bash
+npm install -g @vscode/vsce
+vsce package
+```
+
 ## Color Variants
 
 - primary
