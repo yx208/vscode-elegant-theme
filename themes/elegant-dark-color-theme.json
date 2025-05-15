@@ -127,9 +127,7 @@
 				"entity.name.tag.jsx",
 				"support.class.component.tsx",
     			"support.class.component.jsx",
-				"entity.name.tag.html",
-				// "entity.name.tag.structure.any.html",
-				// "entity.name.tag.inline.any.html"
+				"entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#4997FA",
@@ -142,6 +140,15 @@
 				"name.function",
 				"variable.function",
 				"support.function"
+			],
+			"settings": {
+				"foreground": "#4997FA"
+			}
+		},
+		{
+			"name": "Log:Contant",
+			"scope": [
+				"log.constant"
 			],
 			"settings": {
 				"foreground": "#4997FA"
@@ -216,6 +223,13 @@
 			}
 		},
 		{
+			"name": "Log:Warn",
+			"scope": ["log.warning"],
+			"settings": {
+				"foreground": "#EB8800"
+			}
+		},
+		{
 			"name": "Other variable",
 			"scope": [],
 			"settings": {
@@ -223,8 +237,22 @@
 			}
 		},
 		{
+			"name": "Log:Date",
+			"scope": ["log.date"],
+			"settings": {
+			  "foreground": "#9581D6"
+			}
+		},
+		{
 			"name": "RW gloabl var",
 			"scope": [],
+			"settings": {
+				"foreground": "#E66060"
+			}
+		},
+		{
+			"name": "Log:Error",
+			"scope": ["log.error"],
 			"settings": {
 				"foreground": "#E66060"
 			}
