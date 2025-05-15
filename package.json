@@ -2,9 +2,11 @@
   "name": "vscode-elegant-theme",
   "displayName": "vscode-elegant-theme",
   "author": "yx208",
-  "description": "",
+  "publisher": "yx208",
+  "description": "Elegant VSCode theme",
   "license": "MIT",
   "version": "0.0.2",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.99.0"
   },
