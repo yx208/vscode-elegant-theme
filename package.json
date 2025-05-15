@@ -1,9 +1,10 @@
 {
   "name": "vscode-elegant-theme",
   "displayName": "vscode-elegant-theme",
+  "author": "yx208",
   "description": "",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.99.0"
   },

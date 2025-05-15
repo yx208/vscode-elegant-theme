@@ -59,6 +59,8 @@ vsce package
 
 ## Reference
 
+[UX Guidelines](https://code.visualstudio.com/api/ux-guidelines/overview)
+
 [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 [VSCode Official Theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
