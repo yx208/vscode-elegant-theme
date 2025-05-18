@@ -43,6 +43,7 @@ vsce package
     - #5B697C
     - #41484D
     - #373B42
+    - #26292E
     - #1E2024
     - #1a1c1f
 - Green

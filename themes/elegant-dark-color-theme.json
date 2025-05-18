@@ -7,6 +7,10 @@
 
 		"editorLineNumber.foreground": "#41484D",
 		"editorLineNumber.activeForeground": "#A9B7C6",
+		"editorIndentGuide.background": "#2B2E33",
+		"editorIndentGuide.background1": "#2B2E33",
+		"editorIndentGuide.activeBackground": "#5B697C",
+		"editorIndentGuide.activeBackground1": "#5B697C",
 
 		"editorGroupHeader.tabsBackground": "#1f2226",
 
