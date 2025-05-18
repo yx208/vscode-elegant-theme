@@ -8,34 +8,35 @@
 		"editorLineNumber.foreground": "#41484D",
 		"editorLineNumber.activeForeground": "#A9B7C6",
 
-		"editorGroupHeader.tabsBackground": "#1E2024",
+		"editorGroupHeader.tabsBackground": "#1f2226",
 
 		"editorCursor.foreground": "#2075EB",
 		
 		"terminal.background": "#1A1C1F",
 
-		"sideBar.background": "#1E2024",
+		"sideBar.background": "#1f2226",
+		"sideBar.border": "#373B42",
 
-		"tab.inactiveBackground": "#1E2024",
+		"tab.inactiveBackground": "#1f2226",
 		"tab.activeBorderTop": "#2075EB",
 		"tab.border": "#373B42",
 
-		"statusBar.background": "#1E2024",
+		"statusBar.background": "#1f2226",
 		"statusBar.border": "#373B42",
 
-		"activityBar.background": "#1E2024",
+		"activityBar.background": "#1f2226",
 		"activityBar.border": "#373B42",
 
-		"debugToolBar.background": "#1E2024",
+		"debugToolBar.background": "#1f2226",
 
-		"titleBar.activeBackground": "#1E2024",
+		"titleBar.activeBackground": "#1f2226",
 		"titleBar.border": "#373B42",
 
-		"sideBarSectionHeader.background": "#1E2024",
+		"sideBarSectionHeader.background": "#1f2226",
 
 		"welcomePage.background": "#1A1C1F",
 
-		"menu.background": "#1E2024",
+		"menu.background": "#1f2226",
 		"menu.border": "#373B42",
 		"menu.separatorBackground": "#373B42",
 		"menu.selectionBackground": "#0F62CC"
