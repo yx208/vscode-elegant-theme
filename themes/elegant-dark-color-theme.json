@@ -78,8 +78,11 @@
 			}
 		},
 		{
-			"name": "JSON:Field name",
-			"scope": ["support.type.property-name.json"],
+			"name": "JSON|YML:Field name",
+			"scope": [
+				"support.type.property-name.json",
+				"string.unquoted.plain.yaml",
+			],
 			"settings": {
 				"foreground": "#9DA4AF"
 			}
@@ -105,9 +108,7 @@
 		},
 		{
 			"name": "String",
-			"scope": [
-				"string"
-			],
+			"scope": ["string"],
 			"settings": {
 				"foreground": "#009963"
 			}
@@ -212,6 +213,13 @@
 			"settings": {
 				"foreground": "#E0992D",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "YML:comment",
+			"scope": ["string.unquoted.plain.out.yaml"],
+			"settings": {
+				"foreground": "#E0992D"
 			}
 		},
 		{
