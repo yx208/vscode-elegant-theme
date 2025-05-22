@@ -38,7 +38,7 @@ vsce package
     - #2075EB
     - #0F62CC
 - Gray
-    - #A9B7C6
+    - #A7B4C2
     - #9DA4AF
     - #5B697C
     - #41484D

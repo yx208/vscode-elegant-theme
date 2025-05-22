@@ -3,10 +3,10 @@
 	"name": "Elegant Theme",
 	"colors": {
 		"editor.background": "#1A1C1F",
-		"editor.foreground": "#A9B7C6",
+		"editor.foreground": "#A7B4C2",
 
 		"editorLineNumber.foreground": "#41484D",
-		"editorLineNumber.activeForeground": "#A9B7C6",
+		"editorLineNumber.activeForeground": "#A7B4C2",
 
 		"editorGroupHeader.tabsBackground": "#1E2024",
 
@@ -49,7 +49,7 @@
 				"keyword.operator.assignment",
 			],
 			"settings": {
-				"foreground": "#A9B7C6"
+				"foreground": "#A7B4C2"
 			}
 		},
 		{
@@ -58,7 +58,7 @@
 				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#A9B7C6",
+				"foreground": "#A7B4C2",
 				"fontStyle": "italic bold"
 			}
 		},
@@ -69,7 +69,7 @@
 				"variable.other.object.property.ts"
 			],
 			"settings": {
-				"foreground": "#A9B7C6"
+				"foreground": "#A7B4C2"
 			}
 		},
 		{
